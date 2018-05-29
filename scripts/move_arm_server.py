@@ -3,7 +3,7 @@ import rospy
 import argparse
 import numpy as np
 
-from ada_calibrate_camera_msgs.srv import MoveArm, MoveArmResponse
+from ada_camera_calibration_move_arm_msgs.srv import MoveArm, MoveArmResponse
 from ada_cartesian_control import AdaCartesianControl
 
 def main(args):
